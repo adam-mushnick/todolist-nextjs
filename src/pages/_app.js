@@ -51,11 +51,11 @@ function App() {
 
   return (
     <div className='container'>
-      //show if no todos
+      {/* show if no todos */}
       <div className={`${todos.length ? 'd-none' : ''}`}>
         <SplashPage />
       </div>
-      //hide if no todos
+      {/* hide if no todos */}
       <div
         className={`row d-flex justify-content-center ${
           todos.length ? '' : 'd-none'
